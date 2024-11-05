@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil y Comunidad</title>
+    <title>Comunidad Minecraft</title>
     <style>
         /* Estilos generales */
         * {
@@ -12,33 +12,43 @@
             box-sizing: border-box;
         }
 
-        body {
+        body, html {
+            height: 100%;
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
+            color: #ffffff;
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 100vh;
-            flex-direction: column;
             text-align: center;
+        }
+
+        /* Fondo de la página */
+        .background {
+            background-image: url('https://images6.alphacoders.com/380/380205.jpg'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         /* Contenedor principal */
         .container {
-            background: #ffffff;
+            background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para resaltar el contenido */
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
             max-width: 400px;
-            width: 100%;
+            width: 90%;
         }
 
         /* Sección del título */
         h1 {
             font-size: 2em;
             margin-bottom: 20px;
-            color: #333;
         }
 
         /* Sección de enlaces */
@@ -49,7 +59,7 @@
             margin: 20px 0;
         }
 
-        /* Logo de TikTok */
+        /* Logos de TikTok y Discord */
         .link-section img {
             width: 40px;
             height: 40px;
@@ -63,8 +73,8 @@
             margin: 10px 0;
             font-size: 1.1em;
             font-weight: bold;
-            color: #fff;
-            background-color: #333;
+            color: #ffffff;
+            background-color: #2e7d32; /* Color verde oscuro */
             border: none;
             border-radius: 5px;
             text-decoration: none;
@@ -73,45 +83,47 @@
         }
 
         .button:hover {
-            background-color: #555;
+            background-color: #388e3c; /* Color verde un poco más claro */
         }
 
-        /* Colores específicos */
+        /* Colores específicos para cada plataforma */
         .tiktok-button {
-            background-color: #ff0050;
+            background-color: #c13584; /* Color estilo TikTok */
         }
 
         .discord-button {
-            background-color: #5865F2;
+            background-color: #5865F2; /* Color estilo Discord */
         }
 
         .mods-button {
-            background-color: #1a73e8;
+            background-color: #ff8c00; /* Color naranja para Mods-Addons */
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <!-- Título de la página -->
-        <h1>Bienvenido a la Comunidad</h1>
+    <div class="background">
+        <div class="container">
+            <!-- Título de la página -->
+            <h1>Bienvenido a la Comunidad Minecraft</h1>
 
-        <!-- Sección de perfil de TikTok -->
-        <div class="link-section">
-            <img src="https://upload.wikimedia.org/wikipedia/en/6/69/TikTok_logo.svg" alt="TikTok Logo">
-            <a href="https://www.tiktok.com/@dantermc._" target="_blank" class="button tiktok-button">Perfil de TikTok</a>
-        </div>
+            <!-- Sección de perfil de TikTok -->
+            <div class="link-section">
+                <img src="https://upload.wikimedia.org/wikipedia/en/6/69/TikTok_logo.svg" alt="TikTok Logo">
+                <a href="https://www.tiktok.com/@dantermc._" target="_blank" class="button tiktok-button">Perfil de TikTok</a>
+            </div>
 
-        <!-- Sección de comunidad de Discord -->
-        <div class="link-section">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Discord_logo.svg" alt="Discord Logo" width="40" height="40">
-            <a href="https://discord.gg/FtTBsVzW6c" target="_blank" class="button discord-button">Comunidad de Discord</a>
-        </div>
+            <!-- Sección de comunidad de Discord -->
+            <div class="link-section">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Discord_logo.svg" alt="Discord Logo">
+                <a href="https://discord.gg/FtTBsVzW6c" target="_blank" class="button discord-button">Comunidad de Discord</a>
+            </div>
 
-        <!-- Sección de Mods-Addons -->
-        <div class="link-section">
-            <img src="https://via.placeholder.com/40" alt="Mods-Addons Logo">
-            <a href="mods-addons.html" target="_blank" class="button mods-button">Mods-Addons</a>
+            <!-- Sección de Mods-Addons -->
+            <div class="link-section">
+                <img src="https://via.placeholder.com/40" alt="Mods-Addons Logo">
+                <a href="mods-addons.html" target="_blank" class="button mods-button">Mods-Addons</a>
+            </div>
         </div>
     </div>
 
