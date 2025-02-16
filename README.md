@@ -8,8 +8,4 @@ Algunas redes 👇👇
 - 🌱 <a href="https://discord.com/invite/FtTBsVzW6c" target="_blank">Saelum</a> - Discord 
 - 👯 <a href="https://discord.gg/uyNFHFTXpD" target="_blank">ElCofre</a> - alianza 
 - 📷 <a href="https://www.youtube.com/@Dantermc" target="_blank">Youtube</a>
-- 📬 <a href="dantermc19@gmail.com" target="_blank">Correo</a>
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
