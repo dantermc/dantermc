@@ -1,9 +1,8 @@
-## Hi there 👋
+## Bienvenido 
 
-<!--
-**dantermc/dantermc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+Soy Dantermc, un developer con experiencia 
+En servidores-Network de minecraft java, mi nombre estará en minecraft y otras redes sociales. 
+ 
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
